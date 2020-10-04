@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "./axios";
-import "./Row.css";
+import "./css/Row.css";
 import YouTube from "react-youtube";
 import movieTrailer from "movie-trailer";
 
@@ -57,9 +57,9 @@ function Row({ title, fetchUrl, isLargeRow }) {
 
         {movies.map((movie) => (
           <img
-            // key={movie.id}
-            //onClick={() => handleClick(movie)}
-            className="row__poster" //${isLargeRow && "row__posterLarge"}`}
+            key={movie.id}
+            onClick={() => handleClick(movie)}
+            className={'row__poster ${isLargeRow && "row__posterLarge"}'}
             src={`${base_url}${
               isLargeRow ? movie.poster_path : movie.backdrop_path
             }`}
@@ -67,8 +67,8 @@ function Row({ title, fetchUrl, isLargeRow }) {
           />
         ))}
       </div>
-    </div>
-  );
-}
+    </div> //row
+  ); // return
+} // Row
 
 export default Row;
