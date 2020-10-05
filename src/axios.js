@@ -6,7 +6,7 @@ import axios from "axios";
 /** baseURL: https://api.themoviedb.org/3 */
 /** Avoid the cor issue */
 const instance = axios.create({
-  baseURL: "3",
+  baseURL: "https://api.themoviedb.org/3",
 });
 
 export default instance;

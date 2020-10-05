@@ -13,6 +13,7 @@
     "movie-trailer": "^2.0.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-flip-move": "^3.0.4",
     "react-scripts": "3.4.3",
     "react-youtube": "^7.12.0"
   },
