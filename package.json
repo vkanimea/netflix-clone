@@ -2,7 +2,7 @@
   "name": "netflix-clone",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://api.themoviedb.org",
+  "proxy": "https://api.themoviedb.org/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
