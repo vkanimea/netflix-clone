@@ -14,11 +14,20 @@ The netflix clone pulls data from the TMDB API and uses react Component to repli
 - Documentaries
 
 Features of the build includes the following
-Nav Bar - Keeps to the top of screen - When Scrolling down provides a black background
+Nav Bar
 
-Banner - The banner display a random netflix original movies. - Description only displays 150 characters or less.
+- Keeps to the top of screen
+- When Scrolling down provides a black background
 
-Row - Display the images of the movies based the genres. - Provided there is a Youtube trailer, the movies can be watched.
+Banner
+
+- The banner display a random netflix original movies.
+- Description only displays 150 characters or less.
+
+Row
+
+- Display the images of the movies based the genres.
+- Provided there is a Youtube trailer, the movies can be watched.
 
 The react app is deployed on Google Firebase Hosting.
 
