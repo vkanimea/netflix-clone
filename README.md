@@ -31,7 +31,7 @@ Row
 
 The react app is deployed on Google Firebase Hosting.
 
-Steps:
+Steps: @CP 
 
 - Get TMDB API Key,
 - Create React App
@@ -43,4 +43,4 @@ Steps:
 - Add the Trailer Popups
 - Deply App to Firebase.
 
-[Netflix Clone](https://netflix-clone-beb44.web.app/
+[Netflix Clone](https://netflix-clone-beb44.web.app/)
